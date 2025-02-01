@@ -1,23 +1,10 @@
-/* General styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/* Header and navigation styles */
-header {
-    background: linear-gradient(to right, #d3d3d3, #a9a9a9);
+.gray-gradient {
+    background: linear-gradient(to right, #e0e0e0, #bdbdbd);
+    color: #333;
     padding: 10px 0;
-    position: relative;
-    z-index: 1;
 }
 
-nav {
-    position: relative;
-    z-index: 2;
-}
-
+/* Additional styles for navigation and footer */
 nav ul {
     list-style: none;
     padding: 0;
@@ -36,13 +23,20 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Footer styles */
-footer {
-    background: linear-gradient(to right, #d3d3d3, #a9a9a9);
-    padding: 10px 0;
-    text-align: center;
-    color: rgb(231, 121, 121);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
