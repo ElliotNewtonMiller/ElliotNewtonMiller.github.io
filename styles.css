@@ -1,13 +1,41 @@
-.e-theme-l5 {color:#0b0329 !important; background-color:#ffffff !important}
-.e-theme-l1 {color:#0b0329 !important; background-color:#ffc9aa !important}
-.e-theme-d2 {color:#0b0329 !important; background-color:#c02300 !important}
-.e-theme-d3 {color:#fff !important; background-color:#a81f00 !important}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+/* Header and navigation styles */
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 10px 0;
+}
 
-.e-theme {color:#ffffff !important; background-color:#f22c00 !important}
-.e-text-theme {color:#f22c00 !important}
-.e-border-theme {border-color:#f22c00 !important}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
 
-.e-hover-theme:hover {color:#fff !important; background-color:#f22c00 !important}
-.e-hover-text-theme:hover {color:#f22c00 !important}
-.e-hover-border-theme:hover {border-color:#f22c00 !important}
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
