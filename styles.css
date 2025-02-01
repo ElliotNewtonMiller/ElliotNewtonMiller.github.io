@@ -7,8 +7,15 @@ body {
 
 /* Header and navigation styles */
 header {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, #d3d3d3, #a9a9a9);
     padding: 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
 }
 
 nav ul {
@@ -31,10 +38,10 @@ nav ul li a {
 
 /* Footer styles */
 footer {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, #d3d3d3, #a9a9a9);
     padding: 10px 0;
     text-align: center;
-    color: white;
+    color: rgb(231, 121, 121);
     position: fixed;
     bottom: 0;
     width: 100%;
