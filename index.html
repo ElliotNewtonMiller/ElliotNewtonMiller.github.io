@@ -6,6 +6,29 @@
     <title>Canto Captions</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
+<style>
+    .container {
+      position: relative;
+    }
+    
+    .large-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%; /* Or specific width */
+      height: 100%; /* Or specific height */
+      z-index: 2; /* Ensure large image is on top */
+    }
+    
+    .small-image {
+      position: absolute;
+      top: 20px; /* Adjust positioning as needed */
+      left: 20px;
+      width: 32px; /* Or specific width */
+      height: 32px; /* Or specific height */
+      z-index: 1; /* Ensure small image is on top */
+    }
+</style>
 <body>
     <header>
         <nav>
@@ -29,9 +52,9 @@
         <section class="w3-container w3-teal">
             <h2>Our Volunteers</h2>
             <p>Meet the dedicated team of volunteers who make everything possible.</p>
-            <div class="image-container">
-                <img src="./images/32sqpx.png" alt="Background Image" class="background-image">
-                <img src="./images/tiger pic.jpg" alt="Tiger Picture" class="foreground-image">
+            <div class="container">
+                <img src="./images/32sqpx.png" alt="small image" class="small-image">
+                <img src="./images/tiger pic.jpg" alt="large image" class="large-image">
             </div>
         </section>
     </main>
